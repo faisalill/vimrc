@@ -8,5 +8,3 @@ vim.opt.rtp:prepend(vim.env.LAZY or lazypath)
 require('default-opts')
 require('lazy').setup("plugins")
 
-
-
