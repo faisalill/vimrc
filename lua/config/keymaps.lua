@@ -5,7 +5,7 @@ map({ "n", "v", "i" }, "<C-n>", "<cmd>Neotree toggle<cr>", { desc = "Toggle Nvim
 
 map("i", "jk", "<ESC>", { desc = "Escape" })
 
-map({ "n", "v", "i" }, "<leader>x", "<cmd>bd<cr>", { desc = "Close Buffer" })
+map("n", "<leader>x", "<cmd>bd<cr>", { desc = "Close Buffer" })
 
 map("i", "<C-b>", "<ESC>^i", { desc = "Move Beginning of line" })
 map("i", "<C-e>", "<End>", { desc = "Move End of line" })
